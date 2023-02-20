@@ -240,7 +240,7 @@ function of {
     fi
     # was: git clone git://openflowswitch.org/openflow.git
     # Use our own fork on github for now:
-    git clone https://github.com/mininet/openflow
+    git clone https://github.com/NetSP-KAIST/openflow.git
     cd $BUILD_DIR/openflow
 
     # Patch controller to handle more than 16 switches
@@ -625,7 +625,7 @@ function nox13 {
 function pox {
     echo "Installing POX into $BUILD_DIR/pox..."
     cd $BUILD_DIR
-    git clone https://github.com/noxrepo/pox.git
+    git clone https://github.com/NetSP-KAIST/pox.git
 }
 
 # Install OFtest
